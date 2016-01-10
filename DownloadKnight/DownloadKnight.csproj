@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rutorrent\RTorrentClient.cs" />
+    <Compile Include="Rutorrent\RTorrentPriority.cs" />
+    <Compile Include="Rutorrent\RTorrentSettings.cs" />
+    <Compile Include="Rutorrent\RTorrentTorrent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
